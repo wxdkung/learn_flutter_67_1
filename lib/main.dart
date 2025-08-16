@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 // import 'screen/home.dart';
 import 'package:learn_flutter_67_1/screen/home.dart';
 import 'package:learn_flutter_67_1/screen/item.dart';
+import 'package:learn_flutter_67_1/model/person.dart';
 
 void main() {
   // runApp(const MyApp());
