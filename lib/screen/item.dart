@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 
 import 'package:learn_flutter_67_1/model/person.dart';
 
+import 'package:google_fonts/google_fonts.dart';
+
 class Item extends StatefulWidget {
   const Item({super.key});
 
@@ -28,7 +30,11 @@ class _ItemState extends State<Item> {
             children: [
               Text(
                 personList[index].name,
-                style: TextStyle(fontSize: 20, color: Colors.white),
+                // style: TextStyle(fontSize: 20, color: Colors.white),
+                style: GoogleFonts.kanit(
+                  fontSize: 20,
+                  color: Color(0xfff2f2f2),
+                ),
               ),
               Column(
                 crossAxisAlignment: CrossAxisAlignment.end,
